@@ -1,7 +1,6 @@
 import ConfigParser
 from Heartbeat.Heartbeat import Heartbeat
 import random
-import threading
 
 config = ConfigParser.RawConfigParser()
 config.read("threading_exercise.cfg")
